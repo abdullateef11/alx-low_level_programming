@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * This program prints the given string using the 'printf' command
+ * main - Entry point
+ * Description: prints "\"Programming is like building a multilingual puzzle"
+ * Return: 0
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art");
+	printf("\"with proper grammar, but the outcome is a piece of art");
 	return (0);
 }
