@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /**
  * print_number - prints numbers
  * @n: number to be printed
@@ -12,10 +12,10 @@ void print_number(int n)
 	x = n;
 	if (n < 0)
 	{
-		_putchar(45);
+		_putchar('-');
 		x = -n;
 	}
-	if (x / 10)
+	if ((x / 10) > 0)
 		print_number(x / 10);
 	_putchar((x % 10) + '0');
 }
